@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.head{
+    /* border: 2px solid red; */
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    /* border: 2px solid blueviolet; */
+}
+
+
+
+.nav{
+    /* border: 2px solid green; */
+    display: flex;
+    padding: 20px;
+    
+    /* flex-direction: column; */
+}
+
+.nav li{
+    list-style: none;
+    padding: 8px;
+}
+
+.nav li a{
+    color: #516BEB;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+    /* border-radius: 2pc; */
+}
+.nav li a:hover{
+    color: black;
+    background-color: rgb(1, 112, 187);
+    border-radius: 2pc;
+}
+
+.animation{
+    height: 100vh;
+    /* border: 2px solid white; */
+}
+
+.content{
+    height: 100vh;
+    
+}
+
+.logoimg{
+    height: 60px;
+}
+
+
+/* page 4 */
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: black; */
+  }
+
+.about-us{
+
+    height: 100vh;
+    width: 100%;
+    margin-top: 850px;
+}
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #BFEAF5;
+    padding: 20px;
+  }
+  img {
+    max-width: 100%;
+  }
+  p {
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+  }
